@@ -1,0 +1,375 @@
+html, body, ul, li, ol, dl, dd, dt, b, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+* {
+	margin: 0 ;
+	padding: 0;
+}
+body {
+	font-family: '微软雅黑';
+	color: #444642;
+	background: #f5f5f5;
+}
+a {
+    text-decoration: none;
+}
+
+a {
+    border: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+.clear {
+    clear: both;
+}
+
+a, img {
+    border: none;
+}
+/* top css begin */
+.center-flex {
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.top {
+	width: 100%;
+	background: url(../images/banner_01.jpg) no-repeat center;
+	background-size: cover;
+	height: 502px;
+	position: relative;
+}
+.top:after {
+	content: '';
+	width: 100%;
+	height: 56px;
+	background: url(../images/top-bg_01.png) repeat-x;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.ylb-pic {
+	background: url(../images/txt-lyb_06.png) no-repeat;
+	width: 98px;
+	height: 25px;
+	display: block;
+	float: left;
+	z-index: 2;
+	position: relative;
+	margin-top: 15px;
+}
+.center {
+	width: 880px;
+	margin: 0 auto;
+	position: relative;
+}
+.txt-meau {
+	float: right;
+	margin-right: 54px;
+}
+.txt-meau li {
+	position: relative;
+	float: left;
+	height: 56px;
+	z-index: 2;
+	margin-right: 30px;
+}
+.txt-meau li a {
+	color: #fff;
+	line-height: 56px;
+	font-size: 14px;
+}
+/* top css end */
+
+/* project-introduction begin */
+.project-introduction {
+	width: 100%;
+	padding-bottom: 95px;
+	float: left;
+}
+.project-introduction-txt {
+	text-align: center;
+	display: block;
+	margin-top: 95px;
+	font-size: 30px;
+	color: #444642;
+}
+.dy-margin-top {
+	margin-top: 58px;
+	-webkit-display: flex;
+	-moz-display: flex;
+	-ms-display: flex;
+	-o-display: flex;
+	display: flex;
+	-webkit-display: box;
+	-moz-display: box;
+	-ms-display: box;
+	-o-display: box;
+	display: box;
+}
+.lyb-erweima {
+	float: left;
+}
+.sub-project-introduction-txt {
+	color: #444642;
+	margin-left: 60px;
+	width: 640px;
+	float: left;
+}
+.sub-project-introduction-txt span {
+	font-size: 22px;
+	padding-bottom: 32px;
+	display: block;
+}
+.px-copy {
+	font-size: 18px;
+	line-height: 34px;
+}
+.flex {
+	position: absolute;
+	top: 580px;
+	right: 10px;
+	z-index: 10;
+}
+.flex-sub-pic {
+	background: url(../images/flx_06.jpg) no-repeat;
+	width: 130px;
+	height: 130px;
+	display: block;
+}
+.flex-sub-fanhui {
+	background: url(../images/fanhui_09.jpg) no-repeat;
+	width: 130px;
+	height: 130px;
+	display: none;
+}
+/* project-introduction end */
+
+ /* 五大项目 begin */   
+.five-project {
+	background: url(../images/five_xm.jpg) no-repeat center;
+	width: 100%;
+	height: 390px;
+}
+ /* 五大项目 end  */  
+
+/* post_project begin */
+.post_project {
+	margin-top: 100px;
+}
+.post_project-top-txt {
+	font-size: 30px;
+	text-align: center;
+}
+.pyxy {
+	font-size: 18px;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 70px;
+}
+.table-pic {
+	background: url(../images/lyb-table_03.jpg) no-repeat center;
+	width: 880px;
+	height: 485px;
+	margin-top: 55px;
+}
+/* post_project end */
+
+/* 职业通道 begin */
+.career_path {
+
+}
+.career_path-txt-top {
+	text-align: center;
+	font-size: 30px;
+	margin-top: 100px;
+}
+.route-pic {
+	background: url(../images/lujpic_07.jpg) no-repeat center;
+	width: 100%;
+	height: 587px;
+	margin-top: 70px;
+}
+/* 职业通道 end */
+
+/* 精彩课堂 begin */
+.marvellous {
+	width: 980px;
+	height: 750px;
+	overflow: hidden; 
+	margin: 0 auto;
+	padding-top: 60px;
+	position: relative;
+}
+.lunbo-pic  {
+	position: relative;
+}
+.dy-lunbo-pic  {
+	position: relative;
+}
+.sub-lunbo-pic-one {
+	position: absolute;
+	top: 0;
+	left: -980px;
+}
+.sub-lunbo-pic-two {
+	position: absolute;
+	top: 0;
+	left: 980px;
+}
+.sub-lunbo-pic-style-one {
+	position: absolute;
+	top: 0;
+	left: -980px;
+}
+.sub-lunbo-pic-style-two {
+	position: absolute;
+	top: 0;
+	left: 980px;
+} 
+.left-arrow {
+	background: url(../images/aoorw_03.png) no-repeat;
+	width: 50px;
+	height: 86px;
+	position: absolute;
+	top: 48%;
+	left: 5%;
+}
+.right-arrow {
+	background: url(../images/right_aoorw_03.png) no-repeat;
+	width: 50px;
+	height: 86px;
+	position: absolute;
+	top: 48%;
+	right: 5%;
+}
+.dy-left-arrow {
+	background: url(../images/aoorw_03.png) no-repeat;
+	width: 50px;
+	height: 86px;
+	position: absolute;
+	top: 48%;
+	left: 5%;
+}
+.dy-right-arrow {
+	background: url(../images/right_aoorw_03.png) no-repeat;
+	width: 50px;
+	height: 86px;
+	position: absolute;
+	top: 48%;
+	right: 5%;
+	
+}
+.working_scene {
+	width: 980px;
+	height: 473px;
+	overflow: hidden; 
+	margin: 0 auto;
+	padding-top: 60px;
+	position: relative;
+}
+/* 精彩课堂 end */
+
+/* footer begin */
+.footer {
+	width: 100%;
+	height: 350px;
+	background: #313131;
+	margin-top: 90px;
+	color: #fff;
+}
+.footer-center {
+	width: 960px;
+	margin: 0 auto;
+}
+.partner {
+	border-right: 2px solid #fff;
+	padding-bottom: 18px;
+	float: left;
+	padding-right: 40px;
+	margin-top: 75px;
+}
+.partner-txt {
+	font-size: 30px;
+}
+.footer-partner-txt {
+	width: 960px;
+	margin: 0 auto;
+}
+.partner-pic {
+	margin-top: 40px;
+	margin-left: -20px;
+}
+.partner-pic li {
+	float: left;
+	margin-left: 20px;
+}
+.us-rweima {
+	float: right;
+	margin-top: 90px;
+}
+.txt-us {
+	text-align: center;
+	font-size: 16px;
+}
+.us-pic-erweima {
+	display: block;
+	width: 75px;
+	height: 75px;
+	background: url(../images/content_11.jpg) no-repeat;
+	margin-top: 25px;
+}
+.footer-banquan {
+	text-align: center;
+	font-size: 12px;
+	margin-top: 78px;
+}
+
+.zindex {
+	display: none;
+}
+/* footer end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
